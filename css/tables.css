@@ -1,0 +1,26 @@
+.table {
+    width:100%;
+    border-collapse: collapse;
+}
+
+.table td, table th {
+    border-bottom:1px solid var(--black);
+    padding:var(--spc-4);
+}
+
+.table td {
+    font-size: inherit;
+}
+
+.table th {
+    text-transform: uppercase;
+    font-size: var(--smaller);
+    color: var(--grey-80);
+    font-weight: normal;
+}
+.table .table__h3 {
+    font-weight: var(--fw-bold);
+    font-size: var(--h3);
+    color: var(--black);
+    text-transform: none;
+}

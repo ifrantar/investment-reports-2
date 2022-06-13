@@ -1,0 +1,28 @@
+ @import "reset.css";
+ @import "theme.css";
+ @import "grid.css";
+ @import "header-footer.css";
+ @import "tables.css";
+ @import "typography.css";
+ @import "toc.css";
+
+
+
+ /* Core CSS here */
+ 
+ body {
+     background: white;
+     font-family: var(--sans-serif);
+     font-size: var(--p-standard);
+ }
+
+ .section {
+    margin-bottom:var(--spc-24);
+ }
+
+ .section h2 {
+    padding-bottom:var(--spc-12);
+ }
+.section__sub-1 {
+    margin-bottom:var(--spc-24);
+}

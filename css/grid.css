@@ -1,0 +1,54 @@
+/*** template grid ***/
+
+body {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 60px;
+    grid-template-areas: 
+      'header'
+      'main'
+      'footer';
+}
+  
+body > header {
+    grid-area: header;
+    padding:0 40px;
+    
+}
+  
+body > main {
+    grid-area: main;
+    padding:20px 40px;
+}
+  
+body > footer {
+    grid-area: footer;
+    padding:0 40px;
+}
+
+.grid {
+    display: grid;
+    gap: var(--spc-20);
+}
+
+.grid__col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid__col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid__col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.grid__col-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.grid__col-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+

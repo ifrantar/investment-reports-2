@@ -1,0 +1,19 @@
+.toc__list {
+    width: 100%;
+}
+
+.toc__item {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    margin-bottom:var(--spc-12);
+}
+
+.toc__item span {
+    display: block;
+}
+
+.toc__spacer {
+    position: relative;
+    top: -.5mm;
+    border-bottom: 1px dotted var(--grey-40);
+}

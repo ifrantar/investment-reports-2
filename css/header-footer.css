@@ -1,0 +1,40 @@
+/******* HEADER ******/
+.header {
+    padding-top:40px;
+}
+
+.header__lead {
+    font-size: var(--small);
+    text-transform: uppercase;
+    border-bottom:1px solid var(--grey-40);
+    padding-bottom:var(--spc-8);
+    margin-right:76px;
+    color:var(--grey-80);
+}
+.header h1 {
+    padding-top: var(--spc-8);
+}
+
+.header__logo {
+    position:absolute;
+    top:40px;
+    right:40px;
+}
+
+/******* FOOTER ******/
+.footer {
+    font-size: var(--small);
+    text-transform: uppercase;
+    color:var(--grey-80);
+}
+
+.footer__wrap {
+    border-top: 1px solid var(--grey-40);
+    padding-top: var(--spc-8);
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+}
+
+.footer__cap {
+    text-align: center;
+}
