@@ -1,2 +1,3 @@
 # investment-report-templates
-eest
+
+Templates created for the purpose of jsReport implementation.
