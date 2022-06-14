@@ -1,0 +1,10 @@
+.section {
+    margin-bottom:var(--spc-24);
+}
+
+.section h2 {
+    padding-bottom:var(--spc-12);
+}
+.section__sub-1 {
+    margin-bottom:var(--spc-24);
+}

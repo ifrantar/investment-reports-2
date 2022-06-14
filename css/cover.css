@@ -1,0 +1,44 @@
+.cover__illustration {
+    position:absolute;
+    bottom:0;
+    right:0;
+    z-index:0;
+}
+
+.cover__aerlytix-logo {
+    position:absolute;
+    top:80px;
+    left:100px;
+}
+
+.cover__h1 {
+    position:absolute;
+    top:220px;
+    left: 100px;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+
+.cover__divide-line {
+    width:100px;
+    height:6px;
+    background:var(--brand-blue);
+    position: absolute;
+    top:310px;
+    left:100px;
+}
+
+.cover__h2 {
+    position: absolute;
+    top:340px;
+    left:100px;
+    font-size: 60px;
+    letter-spacing: -1px;
+}
+
+.cover__date {
+    position: absolute;
+    top:480px;
+    left:100px;
+    font-size: var(--h1);
+}
