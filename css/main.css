@@ -8,6 +8,7 @@
  @import "sections.css";
  @import "charts.css";
  @import "cover.css";
+ @import "overrides.css"; /* <- this file only to override a few rules for the full print */
 
 
 

@@ -1,0 +1,32 @@
+.grid__wrapper {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 100px 1fr 60px;
+    grid-template-areas: 
+      'header'
+      'main'
+      'footer';
+}
+  
+.grid__wrapper > header {
+    grid-area: header;
+    padding-top:40px;
+    padding-left:40px;
+    padding-right:40px;
+    
+}
+  
+.grid__wrapper > main {
+    grid-area: main;
+    padding:20px 40px;
+}
+  
+.grid__wrapper > footer {
+    grid-area: footer;
+    padding:0 40px;
+}
+
+body.no-grid {
+    display: block;
+}
