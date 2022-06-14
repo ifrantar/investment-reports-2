@@ -21,11 +21,11 @@
 
 .cover__divide-line {
     width:100px;
-    height:6px;
-    background:var(--brand-blue);
     position: absolute;
     top:310px;
-    left:100px;
+    left:102px;
+    display:block;
+    border-top:7px solid var(--brand-blue);
 }
 
 .cover__h2 {
