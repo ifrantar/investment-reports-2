@@ -7,13 +7,23 @@
 .header__lead {
     font-size: var(--small);
     text-transform: uppercase;
-    border-bottom:1px solid var(--grey-40);
-    padding-bottom:var(--spc-8);
+    border-bottom:1px solid var(--brand-blue);
+    padding-bottom:var(--spc-12);
     margin-right:76px;
     color:var(--grey-80);
 }
+
 .header h1 {
     padding-top: var(--spc-8);
+}
+
+.header h1::before {
+    content:"";
+    position:absolute;
+    top:63px;
+    left:40px;
+    width:60px;
+    border-top:4px solid var(--brand-blue);
 }
 
 .header__logo {
