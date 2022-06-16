@@ -60,3 +60,21 @@
 .mb-5 { margin-bottom: var(--spc-20) !important; }
 .mb-6 { margin-bottom: var(--spc-24) !important; }
 .mb-7 { margin-bottom: var(--spc-28) !important; }
+
+.mt-0 { margin-top: 0 !important; }
+.mt-1 { margin-top: var(--spc-8) !important; }
+.mt-2 { margin-top: var(--spc-12) !important; }
+.mt-3 { margin-top: var(--spc-16) !important; }
+.mt-4 { margin-top: var(--spc-18) !important; }
+.mt-5 { margin-top: var(--spc-20) !important; }
+.mt-6 { margin-top: var(--spc-24) !important; }
+.mt-7 { margin-top: var(--spc-28) !important; }
+
+.mr-0 { margin-right: 0 !important; }
+.mr-1 { margin-right: var(--spc-8) !important; }
+.mr-2 { margin-right: var(--spc-12) !important; }
+.mr-3 { margin-right: var(--spc-16) !important; }
+.mr-4 { margin-right: var(--spc-18) !important; }
+.mr-5 { margin-right: var(--spc-20) !important; }
+.mr-6 { margin-right: var(--spc-24) !important; }
+.mr-7 { margin-right: var(--spc-28) !important; }

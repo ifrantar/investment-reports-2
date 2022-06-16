@@ -3,8 +3,15 @@
 }
 
 .section h2 {
-    padding-bottom:var(--spc-12);
+    padding-bottom:var(--spc-8);
+    border-bottom:2px solid var(--black)
 }
+
+.section h3 {
+    padding-bottom:var(--spc-8);
+    border-bottom:2px solid var(--black)
+}
+
 .section__sub-1 {
     margin-bottom:var(--spc-24);
 }
