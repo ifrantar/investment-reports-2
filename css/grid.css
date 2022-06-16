@@ -4,7 +4,7 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 126px 1fr 60px;
+    grid-template-rows: 116px 1fr 60px;
     grid-template-areas: 
       'header'
       'main'
