@@ -19,3 +19,9 @@ body {
     font-family: var(--sans-serif);
     font-size: var(--p-standard);
 }
+
+.nugget h4 {
+    text-transform: uppercase;
+    font-size: var(--smaller);
+    color:var(--grey-80);
+}
