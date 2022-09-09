@@ -305,7 +305,7 @@
                         </div>
                     </div>
                     <div class="settings__container">
-                        <h4>Nominal Rate</h4>
+                        <h4>Rate</h4>
                         <div class="settings__sub">
                             <div class="nugget">
                                 <h4 class="mb-1">Rate as of</h4>
@@ -315,9 +315,19 @@
                                 <h4 class="mb-1">Escalation Rate</h4>
                                 <p class="h2 fw-normal">3%</p>
                             </div>
+                            <div class="nugget">
+                                <h4 class="mb-1">Industry Rate</h4>
+                                <p class="h2 fw-normal">YES or No</p>
+                            </div>
+                            <div class="nugget">
+                                <h4 class="mb-1">Rate Buffer</h4>
+                                <p class="h2 fw-normal">1.0</p>
+                                <!-- If Industry Rate is NO, Rate buffer should disappear -->
+                            </div>
                         </div>
                     </div>
                 </div>
+
 
                 <hr style="height:2px; border:0; background-color: red" />
                 <p class="mb-6" style="color: red">First Run Nominal with Factor Table 'NONE'</p>
@@ -384,17 +394,18 @@
                         <td class="text-left">$10,000</td>
                     </tr>
                 </table>
-                <h4 class="mb-1">Industry Factor Table</h4>
+                <h4 class="mb-1">Reference Severity</h4>
                 <table class="table mb-6">
                     <tr>
                         <th class="text-left" style="width:200px">Ref Derate</th>
-                        <th class="text-left">Ref Segment Lenght</th>
+                        <th class="text-left">Ref Sector Length</th>
                     </tr>
                     <tr>
-                        <td class="text-left">0.2</td>
-                        <td class="text-left">1.0</td>
+                        <td class="text-left">0.1 %</td>
+                        <td class="text-left">2.00</td>
                     </tr>
                 </table>
+                
             </div>
 
             <p class="mb-6" style="color: red">Or Rate Table</p>
@@ -475,7 +486,7 @@
 
             <table class="table mb-6">
                 <tr>
-                    <th class="text-left" style="width:200px">Rate Adjusted Factor</th>
+                    <th class="text-left" style="width:200px">First Run Rate Adj Factor</th>
                 </tr>
                 <tr>
                     <td class="text-left">1.0</td>
@@ -493,101 +504,24 @@
                 </tr>
                 <tr>
                     <td class="text-left">LPC</td>
-                    <td class="text-right">$10,000</td>
+                    <td class="text-right">25 %</td>
                 </tr>
                 <tr>
                     <td class="text-left">HPC</td>
-                    <td class="text-right">$10,000</td>
+                    <td class="text-right">25 %</td>
                 </tr>
                 <tr>
                     <td class="text-left">HPT</td>
-                    <td class="text-right">$10,000</td>
+                    <td class="text-right">25 %</td>
                 </tr>
                 <tr>
                     <td class="text-left">LPT</td>
-                    <td class="text-right">$10,000</td>
+                    <td class="text-right">25 %</td>
                 </tr>
             </table>
 
 
-            <hr style="height:2px; border:0; background-color: red" />
-            <hr class="mb-6" style="height:2px; border:0; background-color: red" />
-
-
-
-
-
-            <div class="section__sub-1">
-                <h3 class="h3__no-border mb-2">Engine PR</h3>
-                <div class="settings mb-4">
-                    <div class="settings__container">
-                        <h4>Settings</h4>
-                        <div class="settings__sub">
-                            <div class="nugget">
-                                <h4 class="mb-1">Post Payout Balance</h4>
-                                <p class="h2 fw-normal">Roll Forward</p>
-                            </div>
-                            <div class="nugget">
-                                <h4 class="mb-1">Payout Policy</h4>
-                                <p class="h2 fw-normal">Group</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="settings__container">
-                        <h4>Contribution</h4>
-                        <div class="settings__sub">
-                            <div class="nugget">
-                                <h4 class="mb-1">LC in Lieu</h4>
-                                <p class="h2 fw-normal">Yes</p>
-                            </div>
-                            <div class="nugget">
-                                <h4 class="mb-1">MR Cap</h4>
-                                <p class="h2 fw-normal">$100,000</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="settings__container">
-                        <h4>Industry Rate</h4>
-                        <div class="settings__sub">
-                            <div class="nugget">
-                                <h4 class="mb-1">Rate Source</h4>
-                                <p class="h2 fw-normal">Full</p>
-                            </div>
-                            <div class="nugget">
-                                <h4 class="mb-1">Rate Buffer</h4>
-                                <p class="h2 fw-normal">1.0</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <h4 class="mb-1">Modular Distribution</h4>
-                <table class="table mb-6">
-                    <tr>
-                        <th class="text-left" style="width:200px">Modules</th>
-                        <th class="text-right">Weighted Rates</th>
-                    </tr>
-                    <tr>
-                        <td class="text-left">LPC</td>
-                        <td class="text-right">$10,000</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">HPC</td>
-                        <td class="text-right">$10,000</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">HPT</td>
-                        <td class="text-right">$10,000</td>
-                    </tr>
-                    <tr>
-                        <td class="text-left">LPT</td>
-                        <td class="text-right">$10,000</td>
-                    </tr>
-                </table>
-            </div>
-
-
-
-
+            
 
             <hr style="height:2px; border:0; background-color: red" />
             <hr class="mb-6" style="height:2px; border:0; background-color: red" />
@@ -625,7 +559,7 @@
                         </div>
                     </div>
                     <div class="settings__container">
-                        <h4>Full Modular Rate</h4>
+                        <h4>Rate</h4>
                         <div class="settings__sub">
                             <div class="nugget">
                                 <h4 class="mb-1">Rate as of</h4>
@@ -634,6 +568,15 @@
                             <div class="nugget">
                                 <h4 class="mb-1">Escalation Rate</h4>
                                 <p class="h2 fw-normal">3%</p>
+                            </div>
+                            <div class="nugget">
+                                <h4 class="mb-1">Industry Rate</h4>
+                                <p class="h2 fw-normal">YES or No</p>
+                            </div>
+                            <div class="nugget">
+                                <h4 class="mb-1">Rate Buffer</h4>
+                                <p class="h2 fw-normal">1.0</p>
+                                <!-- If Industry Rate is NO, Rate buffer should disappear -->
                             </div>
                         </div>
                     </div>
@@ -1330,12 +1273,13 @@
                         <h4>Settings</h4>
                         <div class="settings__sub">
                             <div class="nugget">
-                                <h4 class="mb-1">Compensation Level</h4>
-                                <p class="h2 fw-normal">100.0 %</p>
+                                <h4 class="mb-1">Mirrored</h4>
+                                <p class="h2 fw-normal">No <span style="color:red">all of these</span></p>
+                                <!-- if this is YES then hide Compensation Level -->
                             </div>
                             <div class="nugget">
-                                <h4 class="mb-1">Mirrored</h4>
-                                <p class="h2 fw-normal">No</p>
+                                <h4 class="mb-1">Compensation Level</h4>
+                                <p class="h2 fw-normal">100.0 %</p>
                             </div>
                             <div class="nugget">
                                 <h4 class="mb-1">EOL Cap</h4>
@@ -1361,7 +1305,7 @@
                         </div>
                     </div>
                     <div class="settings__container">
-                        <h4>Nominal Rate</h4>
+                        <h4>Rate</h4>
                         <div class="settings__sub">
                             <div class="nugget">
                                 <h4 class="mb-1">Rate as of</h4>
@@ -1370,6 +1314,15 @@
                             <div class="nugget">
                                 <h4 class="mb-1">Escalation Rate</h4>
                                 <p class="h2 fw-normal">3%</p>
+                            </div>
+                            <div class="nugget">
+                                <h4 class="mb-1">Industry Rate</h4>
+                                <p class="h2 fw-normal">YES or No</p>
+                            </div>
+                            <div class="nugget">
+                                <h4 class="mb-1">Rate Buffer</h4>
+                                <p class="h2 fw-normal">1.0</p>
+                                <!-- If Industry Rate is NO, Rate buffer should disappear -->
                             </div>
                         </div>
                     </div>
@@ -1701,13 +1654,15 @@
                             </div>
                             <div class="nugget">
                                 <h4 class="mb-1">Type</h4>
-                                <p class="h2 fw-normal">Max</p>
+                                <p class="h2 fw-normal">Maximum Top-up</p>
                             </div>
                         </div>
                     </div>                
                 </div>
+
+                <p class="mb-6" style="color: red">If AUTO (it's user input in Aerlytix) -> the values, dollar amounts they need to come from the model calculation</p>
                 
-                <p class="mb-6" style="color: red">If type MAX (or AUTO?)</p> 
+                <p class="mb-6" style="color: red">If type Maximum Top-up</p> 
                 <table class="table mb-6">
                     <tr>
                         <th class="text-left" style="width:200px">Modules</th>
@@ -1731,21 +1686,12 @@
                     </tr>
                 </table>
                 
-                <p class="mb-6" style="color: red">If type MAX - FORMULA BASED</p>
-                <table class="table mb-6">
-                    <tr>
-                        <th class="text-left" style="width:200px">Reference Derate</th>
-                    </tr>
-                    <tr>
-                        <td class="text-left">0.0 %</td>
-                    </tr>
-                </table>
-
-                <p class="mb-6" style="color: red">If type COST-SHARE CONTRIBUTION</p> 
+                <p class="mb-1" style="color: red">If type MAXIMUM TOP-UP - Auto</p>
+                <p class="mb-6" style="color: red">• The values in the table will come from the model by Aerlytix</p>
                 <table class="table mb-6">
                     <tr>
                         <th class="text-left" style="width:200px">Modules</th>
-                        <th class="text-right">Cost-Share Contribution</th>
+                        <th class="text-right">Amount ($)</th>
                     </tr>
                     <tr>
                         <td class="text-left">LPC</td>
@@ -1764,14 +1710,54 @@
                         <td class="text-right">$10,000</td>
                     </tr>
                 </table>
+                
 
-                <p class="mb-6" style="color: red">If type Cost-Share Auto</p>
+                <p class="mb-6" style="color: red">If type COST-SHARE CONTRIBUTION</p> 
                 <table class="table mb-6">
                     <tr>
-                        <th class="text-left" style="width:200px">Reference Derate</th>
+                        <th class="text-left" style="width:200px">Modules</th>
+                        <th class="text-right">Cost-Share Contribution</th>
                     </tr>
                     <tr>
-                        <td class="text-left">0.0 %</td>
+                        <td class="text-left">LPC</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">HPC</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">HPT</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">LPT</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                </table>
+
+                <p class="mb-1" style="color: red">If type Cost-Share Auto</p>
+                <p class="mb-6" style="color: red">• The values in the table will come from the model by Aerlytix</p>
+                <table class="table mb-6">
+                    <tr>
+                        <th class="text-left" style="width:200px">Modules</th>
+                        <th class="text-right">Cost-Share Contribution</th>
+                    </tr>
+                    <tr>
+                        <td class="text-left">LPC</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">HPC</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">HPT</td>
+                        <td class="text-right">0.0 %</td>
+                    </tr>
+                    <tr>
+                        <td class="text-left">LPT</td>
+                        <td class="text-right">0.0 %</td>
                     </tr>
                 </table>
 
