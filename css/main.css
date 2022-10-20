@@ -269,6 +269,16 @@ li {
     border-right: 1px solid var(--grey-60);
 }
 
+.table__container {
+    border:0;
+    width: 100%;
+}
+
+.table__container-td {
+    padding:0;
+    border-bottom:0;
+}
+
 /************ TYPOGRAPHY *************/
 
 h1, h2, h3, h4, .h1, .h2, .h3, .h4 {
@@ -396,10 +406,32 @@ h3, .h3 {
     letter-spacing: -1px;
 }
 
+.cover__aircraft-details {
+    position:absolute;
+    top:338px;
+    left:100px;
+    display: flex;
+    font-size: var(--h2);
+}
+
+    .cover__aircraft-details div {
+        margin-right:28px;
+    }
+
+    .cover__aircraft-details__title {
+        text-transform: uppercase;
+        color:var(--grey-80);
+        margin-bottom:var(--smaller);
+    }
+
+    .cover__aircraft-details__bold {
+        font-weight: var(--fw-bold);
+    }
+
 .cover__divide-line {
     width:100px;
     position: absolute;
-    top:310px;
+    top:410px;
     left:102px;
     display:block;
     border-top:7px solid var(--brand-blue);
@@ -407,7 +439,7 @@ h3, .h3 {
 
 .cover__h2 {
     position: absolute;
-    top:340px;
+    top:430px;
     left:100px;
     font-size: 60px;
     letter-spacing: -1px;
@@ -415,7 +447,7 @@ h3, .h3 {
 
 .cover__date {
     position: absolute;
-    top:480px;
+    top:580px;
     left:100px;
     font-size: var(--h1);
 }
